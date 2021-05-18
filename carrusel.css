@@ -1,0 +1,173 @@
+header {
+  display: inline-grid;
+}
+.paginas {
+  display: inline;
+  color: white;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+.paginas:hover {
+  color: rgb(242,149,94);
+  font-size: 21px;
+}
+.top {
+  display: inline;
+  color: white;
+  font-weight: bolder;
+  background-color
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.25s;
+}
+.top:hover {
+  color: rgb(242,149,94);
+  font-size: 21px;
+}
+nav {
+  background-color: rgb(251, 228, 121);
+  padding:: 25px;
+  text-align: center;
+  height: 30px;
+  word-spacing: 30px;
+  margin: 5px 0 5px 0;
+}
+
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.imgc {
+  width: 100%;
+  height: 500px;
+}
+img {
+  width: 500px;
+  margin-left: 10px;
+}
+section {
+  font-weight: bold;
+  font-size: 20px;
+}
+* {
+  margin: 0px;
+}
+body{
+  background: linear-gradient(rgba(166,127,93,1) 35%, rgba(247,217,92,1) 100%);
+  font-family: sans-serif;
+
+}
+.logo {
+  width: 400px;
+  height: 150px;
+  margin-left: 5px;
+  margin-top: 5px;
+  display: inline;
+}
+#buscador {
+  background-color: transparent;
+  border-color: rgb(251, 228, 121);
+  height: 25px;
+  width: 250px;
+  border: solid 0.5px rgb(251, 228, 121);
+  outline: none;
+  transition: all 0.5s;
+  border-radius: 10px;
+  font-weight: lighter;
+  text-align: center;
+  display: inline;
+}
+h1 {
+  display: grid;
+  grid-template-columns: 80% 50%;
+  align-items: center;
+  margin: 5px;
+}
+h2 {
+  margin: 5px;
+}
+
+#buscador:focus {
+  border: none;
+  box-shadow: 0 0 15px 0 rgb(251, 228, 121);
+}
+.placeholder {
+  font-family: monospace;
+  font-size: 20px;
+  background-image: url(imagenes/icono.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}
+.placeholder::placeholder {
+  color: black;
+}
+
+footer {
+  margin: 25px 0 10px 0px;
+}
+li {
+  display: flex;
+  font-size: 15px;
+  font-weight: 300;
+  animation: 0.1s;
+}
+li:hover {
+  font-weight: bold;
+}
+#formulario {
+  background-color: transparent;
+  border-color: rgb(166,127,93);
+  border: solid 2px rgb(166,127,93);
+  outline: none;
+  border-radius: 10px;
+  font-weight: lighter;
+  text-align: center;
+  color: black;
+}
+#formulario::placeholder {
+  color: black;
+}
+#redes {
+  color:rgb(251, 228, 121) ;
+  text-decoration: none;
+}
+#redes:hover {
+  font-size: 105%;
+  text-decoration: underline;
+}
+p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px;
+}
+input {
+  background-color: transparent;
+  border-color: rgb(166,127,93);
+  border: solid 2px rgb(166,127,93);
+  outline: none;
+  border-radius: 10px;
+  font-weight: lighter;
+  text-align: center;
+  color: black;
+  margin: 5px;
+  display: block;
+}
+input::placeholder {
+  color: black;
+}
+select {
+  background-color: transparent;
+  border-color: rgb(166,127,93);
+  border-radius: 10px;
+  border: solid 2px rgb(166,127,93);
+  outline: none;
+  margin: 5px 0 5px 5px;
+}
